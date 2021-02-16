@@ -1,0 +1,26 @@
+.contact {
+    margin-top: 282px;
+    background-image: url(../img/contactBg.jpg);
+    background-position: left top;
+}
+
+.contactHeader {
+    color: black;
+    background-color: white;
+}
+
+.contactWrapper {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    height: 80vh;
+    align-items: flex-end;
+}
+
+
+
+.inputData {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}

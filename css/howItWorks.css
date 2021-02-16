@@ -1,0 +1,86 @@
+.howItWorks {
+    position: relative;
+    height: 100vh;
+    background-color: rgba(221, 221, 221, 0.185);
+    padding-top: 100px;
+}
+
+.howItWorks::after {
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 80px;
+    background-color: #FFD829;
+    top: 13%;
+    left: 54%;
+    z-index: -1;
+}
+
+.howItWorksWrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/howItWorksBg.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+.howItWorksParagraphContainer {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.616);
+    top: 10%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+.howItWorksParagraphContainer h5 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+
+.howItWorksParagraphContainer p {
+    max-width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.fastContact {
+    margin: 0 auto;
+}
+
+.fastContact p:nth-child(1) {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border: 5px solid #FFD829;
+    padding: 20px 10px;
+}
+
+.phone {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.fas {
+    font-size: 60px;
+    padding-right: 50px;
+    color: rgb(255, 216, 41);
+}
+
+.phone span {
+    font-family: 'Caveat', cursive;
+    color: rgb(255, 216, 41);
+    font-size: 60px;
+}
+

@@ -13,6 +13,6 @@ html {
 
 body {
     overflow-x: hidden;
-    min-height: 1000vh;
     font-family: 'Raleway', sans-serif;
+    background-color: rgba(221, 221, 221, 0.185);
 }

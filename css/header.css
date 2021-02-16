@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 9999;
 }
@@ -118,13 +118,6 @@ ul a:hover::after {
     color: rgb(231, 255, 15);
 }
 
-.nataliaImg {
-    position: absolute;
-    height: 85%;
-    bottom: 0;
-    left: -50px;
-}
-
 .button {
     position: absolute;
     top: 150%;
@@ -202,6 +195,5 @@ ul a:hover::after {
 }
 
 .button:hover {
-    background-color: rgba(229, 255, 0, 0.418);
-    
+    background-color: rgba(229, 255, 0, 0.418);    
 }

@@ -1,0 +1,81 @@
+.aboutMe__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.aboutMe h2 {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.h2__bg {
+    position: absolute;
+    height: 72px;
+    width: 300px;
+    background-color: #ffd829;
+    top: 75px;
+    left: 31vw;
+    z-index: -1;
+}
+
+.nataliaImg {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.aboutText {
+    width: 40%;
+}
+
+.aboutText p {
+    position: relative;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.aboutText p span:nth-child(1) {
+    position: absolute;
+    width: 5px;
+    height: 20vh;
+    background-color: #ffd829;
+    top: -40px;
+    left: 0;
+}
+
+.aboutText p span:nth-child(2) {
+    position: absolute;
+    width: 20vh;
+    height: 5px;
+    background-color: #ffd829;
+    top: 0px;
+    left: -40px;
+}
+
+.aboutText p span:nth-child(3) {
+    position: absolute;
+    width: 5px;
+    height: 20vh;
+    background-color: #ffd829;
+    bottom: -40px;
+    right: 0;
+}
+
+.aboutText p span:nth-child(4) {
+    position: absolute;
+    width: 20vh;
+    height: 5px;
+    background-color: #ffd829;
+    bottom: 0;
+    right: -40px;
+}

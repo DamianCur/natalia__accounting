@@ -217,7 +217,7 @@ ul a:hover::after {
     }
 }
 
-@media (orientation: landscape) and (max-width: 1440px) {
+@media (orientation: landscape) and (max-width: 1400px) {
     .welcome {
         top: 15%;
     }
@@ -255,6 +255,7 @@ ul a:hover::after {
         position: fixed;
         color: rgb(196, 196, 196);
         font-size: 45px;
+        cursor: pointer;
     }
 
     .fa-bars.show {
@@ -289,7 +290,7 @@ ul a:hover::after {
         display: block;
         font-size: 25px;
         width: 100%;
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     ul li:nth-of-type(5) a {
@@ -300,7 +301,7 @@ ul a:hover::after {
     .liIcon img {
         height: 20vh;
         width: auto;
-        top: 20vh;
+        top: 15vh;
         left: 50%;
     }
 }

@@ -21,8 +21,8 @@
     height: 72px;
     width: 300px;
     background-color: #ffd829;
-    top: 75px;
-    left: 31vw;
+    bottom: 3vh;
+    right: 54vw;
     z-index: -1;
 }
 

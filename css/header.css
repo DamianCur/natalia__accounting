@@ -208,14 +208,6 @@ ul a:hover::after {
     background-color: rgba(229, 255, 0, 0.418);
 }
 
-@media (max-width: 1440px) {
-    ul li {
-        width: 20%;
-    }
-    .liIcon img {
-        width: 9vw;
-    }
-}
 
 @media (orientation: landscape) and (max-width: 1400px) {
     .welcome {

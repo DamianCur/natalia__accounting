@@ -4,7 +4,6 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .header2 {
@@ -40,8 +39,8 @@
     position: relative;
     font-size: 20px;
     line-height: 150%;
-    padding: 30px;
-    margin-top: 100px;
+    padding: 40px;
+    margin: 100px 0;
 }
 
 .aboutText p span:nth-child(1) {
@@ -79,3 +78,119 @@
     bottom: 0;
     right: -40px;
 }
+
+
+/*                        LANDSCAPE                         */
+
+
+
+@media (orientation: landscape) and (max-width: 1400px) {
+    .header2 {
+        font-size: 60px;
+    }
+}
+
+@media (orientation: landscape) and (max-width:823px) {
+    .aboutMe__wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nataliaImg {
+        width: 50%;
+    }
+    .aboutText {
+        width: 80%;
+    }
+    .aboutText p span:nth-child(1) {
+        width: 3px;
+        height: 30vh;
+    }
+    .aboutText p span:nth-child(2) {
+        width: 30vh;
+        height: 3px;
+    }
+    .aboutText p span:nth-child(3) {
+        width: 3px;
+        height: 30vh;
+    }
+    .aboutText p span:nth-child(4) {
+        width: 30vh;
+        height: 3px;
+    }
+}
+
+@media (orientation: landscape) and (max-width:640px) {
+    .header2 {
+        font-size: 40px;
+    }
+
+    .h2__bg {
+        width: 30vw;
+        height: 15vh;
+        right: 60vw;
+        top: 22vh;
+    }
+}
+
+
+/*                        PORTRAIT                           */
+
+
+@media (orientation: portrait) and (max-width: 540px) {
+    .header2 {
+        font-size: 30px;
+    }
+
+    .h2__bg {
+        width: 130px;
+        height: 35px;
+        right: 65%;
+        top: 28%;
+    }
+
+    .aboutMe__wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nataliaImg {
+        width: 80%;
+    }
+    .aboutText {
+        width: 90%;
+        font-size: 15px;
+    }
+    .aboutText p span:nth-child(1) {
+        width: 3px;
+        height: 20vh;
+    }
+    .aboutText p span:nth-child(2) {
+        width: 20vh;
+        height: 3px;
+    }
+    .aboutText p span:nth-child(3) {
+        width: 3px;
+        height: 20vh;
+    }
+    .aboutText p span:nth-child(4) {
+        width: 20vh;
+        height: 3px;
+    }
+
+
+}
+
+@media (orientation: portrait) and (max-width: 360px) {
+    .header2 {
+        font-size: 25px;
+    }
+
+    .h2__bg {
+        width: 130px;
+        height: 35px;
+        right: 65%;
+        top: 28%;
+    }
+}
+

@@ -1,7 +1,6 @@
 .howItWorks {
     position: relative;
     background-color: rgba(221, 221, 221, 0.185);
-    
 }
 
 .howItWorks::after {
@@ -18,7 +17,7 @@
 .howItWorksWrapper {
     position: relative;
     background-image: url(../img/howItWorksBg.jpg);
-    background-position:center;
+    background-position: center;
     background-size: cover;
     height: 100vh;
 }
@@ -40,7 +39,6 @@
     text-transform: uppercase;
     font-size: 40px;
     font-weight: normal;
-    
 }
 
 .howItWorksParagraphContainer p {
@@ -67,7 +65,6 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    
 }
 
 .howItWorksParagraphContainer .fas {
@@ -82,3 +79,275 @@
     font-size: 60px;
 }
 
+/*                        LANDSCAPE                         */
+
+@media (orientation: landscape) and (max-width: 1024px) {
+    .howItWorksParagraphContainer {
+        height: 60vh;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 30px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 25px;
+        padding: 10px 20px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 40px;
+    }
+    .phone span {
+        font-size: 50px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 823px) {
+    .howItWorksParagraphContainer h5 {
+        padding: 10px;
+        font-size: 30px;
+    }
+    .howItWorksParagraphContainer p {
+        font-size: 15px;
+    }
+    .fastContact p:nth-child(1) {
+        padding: 5px 20px;
+        font-size: 15px;
+        border-width: 2px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 30px;
+    }
+    .phone span {
+        font-size: 30px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 812px) {
+    .howItWorksParagraphContainer {
+        height: 70vh;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 10px;
+        font-size: 25px;
+    }
+    .howItWorksParagraphContainer p {
+        font-size: 13px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 720px) {
+    .howItWorksParagraphContainer {
+        height: 55vh;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 667px) {
+    .howItWorksParagraphContainer {
+        height: 70vh;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 15px;
+    }
+    .howItWorksParagraphContainer .fas {
+        padding-right: 15px;
+    }
+    .header2 {
+        font-size: 40px;
+        padding: 40px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 568px) {
+    .howItWorksParagraphContainer {
+        height: 70vh;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 10px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 5px;
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 15px;
+    }
+    .phone span {
+        font-size: 15px;
+    }
+    .howItWorksParagraphContainer p {
+        padding-top: 5px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 823px) and (max-height: 411px) {
+    .howItWorksParagraphContainer {
+        height: 70vh;
+    }
+}
+
+/*                        PORTRAIT                           */
+
+@media (orientation: portrait) {
+    .howItWorksParagraphContainer {
+        width: 65%;
+        height: 65%;
+        top: 5%;
+        left: 5%;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 25px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 15px;
+        font-size: 20px;
+        border-width: 3px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 30px;
+    }
+    .phone span {
+        font-size: 32px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    .howItWorksParagraphContainer {
+        width: 65%;
+        height: 65%;
+        top: 5%;
+        left: 5%;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 40px;
+        font-size: 50px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 30px;
+        border-width: 5px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 70px;
+    }
+    .phone span {
+        font-size: 70px;
+    }
+    .howItWorksParagraphContainer p {
+        font-size: 30px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+    .howItWorksParagraphContainer {
+        width: 65%;
+        height: 65%;
+        top: 5%;
+        left: 5%;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 40px;
+        font-size: 40px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+        border-width: 5px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 50px;
+    }
+    .phone span {
+        font-size: 50px;
+    }
+    .howItWorksParagraphContainer p {
+        font-size: 20px;
+    }
+}
+
+
+@media (orientation: portrait) and (max-width: 540px) {
+    .howItWorksParagraphContainer h5 {
+        padding: 20px;
+        font-size: 30px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        border-width: 3px;
+        padding: 10px 20px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 25px;
+    }
+    .phone span {
+        font-size: 28px;
+    }
+    .howItWorksParagraphContainer p {
+        font-size: 15px;
+    }
+
+    .howItWorksParagraphContainer .fas {
+        padding-right: 10px;
+    }
+}
+
+
+@media (orientation: portrait) and (max-width: 414px) {
+    .howItWorksParagraphContainer h5 {
+        padding: 20px;
+        font-size: 30px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        border-width: 3px;
+        padding: 10px 20px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 25px;
+    }
+    .phone span {
+        font-size: 28px;
+    }
+    .howItWorksParagraphContainer p {
+        font-size: 15px;
+    }
+
+    .howItWorksParagraphContainer .fas {
+        padding-right: 10px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 360px) {
+    .phone span {
+        font-size: 26px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 320px) {
+    .howItWorksParagraphContainer h5 {
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .fastContact p:nth-child(1) {
+        margin-top: 10px;
+        font-size: 15px;
+        border-width: 3px;
+        padding: 5px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 20px;
+    }
+    .phone span {
+        font-size: 22px;
+    }
+
+    .phone {
+        padding-top: 15px;
+    }
+}

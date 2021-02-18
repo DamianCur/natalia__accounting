@@ -44,19 +44,19 @@ form {
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 60vh;
+    justify-content: center;
+    height: 70%;
     background-color: rgba(221, 221, 221, 0.705);
     left: 50%;
     top: 30%;
     transform: translate(-50%);
-    padding: 70px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 form input {
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 20px;
     border-radius: 5px;
     width: 100%;
@@ -64,15 +64,17 @@ form input {
 
 form textarea {
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 20px;
     border-radius: 5px;
     width: 100%;
 }
 
 form .contactButton {
+    display: block;
+    font-family: 'Caveat', cursive;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 20px;
     border-radius: 5px;
     width: 100%;
@@ -81,4 +83,5 @@ form .contactButton {
     color: black;
     text-align: center;
     border: 2px solid white;
+    text-transform: uppercase;
 }

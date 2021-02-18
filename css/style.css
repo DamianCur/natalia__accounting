@@ -15,5 +15,9 @@ html {
 body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
-    
+    max-width: 100%;
+}
+
+section {
+    overflow: hidden;
 }

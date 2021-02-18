@@ -207,6 +207,10 @@ ul a:hover::after {
     background-color: rgba(229, 255, 0, 0.418);
 }
 
+
+
+/*                        LANDSCAPE                         */
+
 @media (orientation: landscape) and (max-width: 1400px) {
     .welcome {
         top: 15%;
@@ -305,11 +309,9 @@ ul a:hover::after {
         font-size: 20px;
         top: 60vh;
     }
-
     .burger {
         font-size: 35px;
     }
-
     ul li a {
         padding: 5px 15px;
         text-align: center;
@@ -317,8 +319,131 @@ ul a:hover::after {
         font-size: 15px;
         margin: 10px 0;
     }
-
     ul li:nth-of-type(5) a {
         margin-bottom: 30px;
+    }
+}
+
+
+/*                        PORTRAIT                           */
+
+
+@media (orientation: portrait) and (max-width: 768px) {
+    .welcome {
+        top: 15%;
+    }
+    .welcome p {
+        font-size: 45px;
+        margin-bottom: 110px;
+    }
+    .welcome h2 {
+        font-size: 20px;
+        width: 100%;
+        line-height: 200%;
+    }
+    .welcome span {
+        display: inline-block;
+        font-size: 40px;
+    }
+    .button {
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+    .button span:nth-of-type(1) {
+        top: -70%;
+    }
+    .button span:nth-of-type(3) {
+        bottom: -70%;
+    }
+    .button:hover.button span:nth-of-type(1) {
+        transform: translateY(70%);
+    }
+    .button:hover.button span:nth-of-type(3) {
+        transform: translateY(-70%);
+    }
+    .burger {
+        position: fixed;
+        color: rgb(196, 196, 196);
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .fa-bars.show {
+        display: block;
+    }
+    .fa-times.show {
+        display: block;
+    }
+    ul.show {
+        transform: translateX(100%);
+    }
+    nav {
+        width: 40vw;
+    }
+    nav ul {
+        position: absolute;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100vh;
+        width: 60vw;
+        left: -60vw;
+        transition: .5s;
+    }
+    ul li {
+        width: 100%;
+    }
+    ul li a {
+        display: block;
+        font-size: 25px;
+        width: 100%;
+        margin: 20px 0;
+    }
+    ul li:nth-of-type(5) a {
+        margin-bottom: 60px;
+    }
+    .liIcon img {
+        height: 20vh;
+        width: auto;
+        top: 15vh;
+        left: 50%;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 414px) {
+    .burger {
+        top: 5vh;
+        right: 7vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 360px) {
+    .welcome {
+        top: 15%;
+    }
+    .welcome p {
+        font-size: 35px;
+        margin-bottom: 110px;
+    }
+    .welcome h2 {
+        font-size: 20px;
+        width: 100%;
+        line-height: 200%;
+        padding: 0 20px;
+    }
+    .welcome span {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .button {
+        padding: 10px 20px;
+        font-size: 20px;
+        top: 70vh
+    }
+
+    ul li a {
+        font-size: 20px;
+    }
+
+    .liIcon img {
+        height: 15vh;
     }
 }

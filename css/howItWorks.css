@@ -81,6 +81,25 @@
 
 /*                        LANDSCAPE                         */
 
+@media (orientation: landscape) and (max-width: 1400px) {
+    .howItWorksParagraphContainer {
+        height: 70%;
+    }
+    .howItWorksParagraphContainer h5 {
+        padding: 30px;
+    }
+    .fastContact p:nth-child(1) {
+        margin-top: 25px;
+        padding: 10px 20px;
+    }
+    .howItWorksParagraphContainer .fas {
+        font-size: 40px;
+    }
+    .phone span {
+        font-size: 50px;
+    }
+}
+
 @media (orientation: landscape) and (max-width: 1024px) {
     .howItWorksParagraphContainer {
         height: 60vh;

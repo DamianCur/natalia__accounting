@@ -125,7 +125,7 @@ ul a:hover::after {
     font-family: 'Caveat', cursive;
     font-size: 60px;
     padding-left: 10px;
-    color: rgb(231, 255, 15);
+    color: #FFD829;
 }
 
 .button {
@@ -204,7 +204,7 @@ ul a:hover::after {
 }
 
 .button:hover {
-    background-color: rgba(229, 255, 0, 0.418);
+    background-color: #ffd829a8;
 }
 
 

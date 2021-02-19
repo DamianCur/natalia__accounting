@@ -1,9 +1,11 @@
-.contact {
+.contactWrapper {
     position: relative;
     background-image: url(../img/contactBg.jpg);
     background-position: left top;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
 }
 
 .contactHeader {
@@ -86,5 +88,75 @@ form .contactButton {
     text-align: center;
     border: 2px solid white;
     text-transform: uppercase;
-    
+}
+
+@media (orientation:landscape) {
+    .contactHeader {
+        font-size: 40px;
+    }
+    .contactHeader::before {
+        border-width: 0 0 70px 70px;
+        top: 4%;
+        left: 30%;
+    }
+    .contactHeader::after {
+        border-width: 0 0 70px 70px;
+        bottom: 4%;
+        right: 30%;
+    }
+    form {
+        width: 45vw;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 1024px) {
+    .contactHeader::before {
+        border-width: 0 0 40px 40px;
+        top: 22%;
+        left: 24%;
+    }
+    .contactHeader::after {
+        border-width: 0 0 40px 40px;
+        bottom: 22%;
+        right: 24%;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 812px) {
+    .contactHeader::before {
+        border-width: 0 0 40px 40px;
+        top: 3%;
+        left: 17%;
+    }
+    .contactHeader::after {
+        border-width: 0 0 40px 40px;
+        bottom: 3%;
+        right: 17%;
+    }
+    form {
+        height: 80vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        left: 50%;
+        top: 10%;
+    }
+    form input {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 45%;
+        margin: 0;
+    }
+    form textarea {
+        font-size: 15px;
+        width: 100%;
+        resize: none;
+        height: 35%;
+        margin-bottom: 20px;
+    }
+    form .contactButton {
+        margin: 20px 0;
+        font-size: 20px;
+    }
 }

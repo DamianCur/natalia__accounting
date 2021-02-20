@@ -31,6 +31,8 @@
     top: 10%;
     left: 5%;
     border-radius: 10px;
+    padding: 20px;
+    min-height: 80%;
 }
 
 .howItWorksParagraphContainer h5 {
@@ -43,9 +45,9 @@
 }
 
 .howItWorksParagraphContainer p {
-    max-width: 70%;
     margin: 0 auto;
     font-size: 20px;
+    
 }
 
 .fastContact {
@@ -206,6 +208,17 @@
     }
     .howItWorksParagraphContainer p {
         padding-top: 5px;
+    }
+
+    .howItWorks::after {
+        position: absolute;
+        content: "";
+        width: 200px;
+        height: 60px;
+        background-color: #FFD829;
+        top: 3vh;
+        left: 54vw;
+        z-index: -1;
     }
 }
 

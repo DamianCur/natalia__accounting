@@ -1,17 +1,123 @@
 .priceList {
-    height: 100vh;
-    width: 100vw; 
+    
+    width: 100vw;
 }
 
 .priceListWrapper {
-    height: 100vh;
-    width: 100vw;
+    position: relative;
+    min-height: 140vh;
+    min-width: 100%;
     background-color: #ddd;
+    background-image: url(../img/handshake.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.priceListWrapper h2 {
-    text-align: center;
-    line-height: 100vh;
-    font-size: 50px;
-    text-transform: uppercase;
+.priceListHeader {
+    position: relative;
+    border: 2px solid black;
+    width: 30%;
+    margin: 40px auto;
+    padding: 10px 20px;
 }
+
+.priceListHeader::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFD829;
+    z-index: -1;
+    top: 1vh;
+    right: 1vh;
+}
+
+.services {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.servicesElement {
+    width: 25%;
+    min-height: 60%;
+    background-color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    border: 3px solid #FFD829;
+    border-radius: 20px;
+    padding: 40px 0px;
+}
+
+.servicesElementH3 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.servicesElement div>* {
+    padding: 25px;
+}
+
+.servicesElement div {
+    margin-top: 20px;
+}
+
+.servicesElementPrice {
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+}
+
+.servicesElement p {
+    font-size: 20px;
+}
+
+.fa-check {
+    padding-right: 10px;
+    color: #66ff29;
+}
+
+.servicesElementButton.important {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #FFD829;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.servicesElementButton.important::after {
+    content: "";
+    position: absolute;
+    left: -110%;
+    top: 0;
+    background-color: white;
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transform: translate(0);
+    transition: .3s;
+    z-index: -1;
+}
+
+.servicesElementButton.important:hover.servicesElementButton.important::after{
+    transform: translate(80%);
+}
+

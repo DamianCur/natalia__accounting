@@ -47,14 +47,14 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 70%;
     width: 30vw;
     background-color: rgba(221, 221, 221, 0.705);
     left: 50%;
-    top: 30%;
+    top: 5%;
     transform: translate(-50%);
     padding: 20px;
     border-radius: 10px;
+    min-height: 90vh;
 }
 
 form input {
@@ -90,6 +90,8 @@ form .contactButton {
     text-transform: uppercase;
 }
 
+/*                        LANDSCAPE                         */
+
 @media (orientation:landscape) {
     .contactHeader {
         font-size: 40px;
@@ -122,7 +124,7 @@ form .contactButton {
     }
 }
 
-@media (orientation:landscape) and (max-width: 812px) {
+@media (orientation:landscape) and (max-width: 823px) {
     .contactHeader::before {
         border-width: 0 0 40px 40px;
         top: 3%;
@@ -158,5 +160,118 @@ form .contactButton {
     form .contactButton {
         margin: 20px 0;
         font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media (orientation:landscape) and (max-width:720px) {
+    .contactHeader::before {
+        top: 4%;
+        left: 13%;
+    }
+    .contactHeader::after {
+        bottom: 4%;
+        right: 13%;
+    }
+    form {
+        height: 90%;
+        width: 80vw;
+        left: 50%;
+        top: 5%;
+    }
+    form input {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 45%;
+        height: 12vh;
+        margin: 0;
+    }
+    form .contactButton {
+        padding: 10px 10px;
+        margin: 0px;
+        font-size: 30px;
+        height: 80px;
+        line-height: 50px;
+    }
+}
+
+@media (orientation:landscape) and (max-width:640px) {
+    .contactHeader {
+        font-size: 40px;
+        padding: 30px;
+    }
+    .contactHeader::before {
+        border-width: 0 0 50px 50px;
+        top: 9%;
+        left: 8%;
+    }
+    .contactHeader::after {
+        border-width: 0 0 50px 50px;
+        bottom: 9%;
+        right: 8%;
+    }
+    form {
+        height: 90%;
+        width: 80vw;
+        left: 50%;
+        top: 5%;
+    }
+}
+
+@media (orientation:landscape) and (max-width:568px) {
+    .contactHeader {
+        font-size: 30px;
+        padding: 30px;
+    }
+    .contactHeader::before {
+        border-width: 0 0 40px 40px;
+        top: 3%;
+        left: 13%;
+    }
+    .contactHeader::after {
+        border-width: 0 0 40px 40px;
+        bottom: 3%;
+        right: 13%;
+    }
+    form {
+        height: 90%;
+        width: 80vw;
+        left: 50%;
+        top: 5%;
+    }
+}
+
+/*                        PORTRAIT                           */
+
+@media (orientation:portrait) {
+    .contactHeader::before {
+        border-width: 0 0 50px 50px;
+        top: 20%;
+        left: 13%;
+    }
+    .contactHeader::after {
+        border-width: 0 0 50px 50px;
+        bottom: 20%;
+        right: 13%;
+    }
+    form {
+        min-height: 90vh;
+        min-width: 90vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+    .contactHeader {
+        font-size: 40px;
+    }
+
+
+}
+
+@media (orientation: portrait) and (max-width: 320px) {
+    form textarea {
+        margin: 0;
+        height: 30vh;
     }
 }

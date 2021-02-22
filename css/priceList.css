@@ -131,7 +131,6 @@
     .priceListWrapper {
         min-height: 130vh;
     }
-
     .servicesElement {
         width: 25%;
         height: 80%;
@@ -145,7 +144,7 @@
     .servicesElement div>* {
         padding: 15px;
     }
-    .servicesElement div {
+    .servicesElementWrapper {
         margin-top: 30px;
     }
     .servicesElementPrice {
@@ -170,6 +169,10 @@
 }
 
 @media (orientation: landscape) and (max-width: 1024px) {
+    .priceListWrapper {
+        min-height: 160vh;
+    }
+
     .services {
         flex-direction: column;
         justify-content: space-around;
@@ -185,6 +188,7 @@
         flex-wrap: wrap;
         align-content: flex-start;
         justify-content: center;
+        margin: 20px 0;
     }
     .servicesElementH3 {
         font-family: 'Caveat', cursive;
@@ -197,18 +201,13 @@
     .servicesElement div>* {
         padding: 0px;
     }
-    .servicesElement div {
-        margin-top: 0px;
-    }
+    
     .servicesElementPrice {
+        display: block;
         font-size: 30px;
         color: rgb(80, 80, 80);
-    }
-    .servicesElement p {
-        font-size: 16px;
-        border-bottom: 1px solid #FFD829;
-        width: 70%;
-        margin: 0 0;
+        width: 100%;
+        margin-bottom: 20px;
     }
     .servicesElement p:nth-of-type(1) {
         margin-top: 0px;
@@ -236,4 +235,21 @@
         z-index: 1;
         overflow: hidden;
     }
+    .servicesElementWrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+
+    .servicesElement p {
+        font-size: 16px;
+        border-bottom: none;
+        padding: 10px 0;
+        width: 50%;
+    }
+
+    
 }

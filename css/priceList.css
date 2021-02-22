@@ -194,9 +194,8 @@
         font-family: 'Caveat', cursive;
         font-size: 40px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.192);
-        width: 100%;
-        margin: 0 0;
-        margin: 0px 100px;
+        width: 70%;
+        margin: 10px 100px;
     }
     .servicesElement div>* {
         padding: 0px;
@@ -218,7 +217,7 @@
     }
     .servicesElementButton.important {
         position: absolute;
-        bottom: 10%;
+        bottom: 5%;
         left: 50%;
         transform: translate(-50%);
         font-family: 'Oswald', sans-serif;
@@ -226,10 +225,10 @@
         color: rgb(0, 0, 0);
         background-color: #FFD829;
         border: 1px solid black;
-        width: 80%;
-        padding: 15px 20px;
+        width: 60%;
+        padding: 10px 15px;
         text-transform: uppercase;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 1px;
         border-radius: 5px;
         z-index: 1;
@@ -241,6 +240,7 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
+        margin-top: 0;
         
     }
 

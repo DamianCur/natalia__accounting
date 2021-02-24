@@ -415,6 +415,19 @@ ul a:hover::after {
     }
 }
 
+@media (orientation: portrait) and (max-width: 375px) {
+    .button {
+        top: 60vh;
+    }
+
+    .howItWorksWrapper {
+        min-height: 110vh;
+        height: 0;
+    }
+
+    
+}
+
 @media (orientation: portrait) and (max-width: 360px) {
     .welcome {
         top: 15%;

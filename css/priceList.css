@@ -133,12 +133,12 @@
     }
     .servicesElement {
         width: 25%;
-        height: 80%;
+        height: auto;
         max-height: 95%;
         padding: 30px 0px;
     }
     .servicesElementH3 {
-        font-size: 30px;
+        font-size: 40px;
         padding-bottom: 10px;
     }
     .servicesElement div>* {
@@ -148,10 +148,10 @@
         margin-top: 30px;
     }
     .servicesElementPrice {
-        font-size: 25px;
+        font-size: 30px;
     }
     .servicesElement p {
-        font-size: 15px;
+        font-size: 20px;
     }
     .servicesElement p:nth-of-type(1) {
         margin-top: 30px;
@@ -170,9 +170,8 @@
 
 @media (orientation: landscape) and (max-width: 1024px) {
     .priceListWrapper {
-        min-height: 160vh;
+        min-height: 180vh;
     }
-
     .services {
         flex-direction: column;
         justify-content: space-around;
@@ -181,8 +180,7 @@
     .servicesElement {
         position: relative;
         width: 95%;
-        min-height: 30%;
-        max-height: 33%;
+        min-height: 50vh;
         padding: 0px 0px;
         display: flex;
         flex-wrap: wrap;
@@ -200,7 +198,6 @@
     .servicesElement div>* {
         padding: 0px;
     }
-    
     .servicesElementPrice {
         display: block;
         font-size: 30px;
@@ -241,15 +238,165 @@
         justify-content: flex-start;
         align-items: center;
         margin-top: 0;
-        
     }
-
     .servicesElement p {
         font-size: 16px;
         border-bottom: none;
         padding: 10px 0;
         width: 50%;
     }
+}
 
-    
+@media (orientation: landscape) and (max-width: 823px) {
+    .priceListWrapper {
+        min-height: 300vh;
+    }
+    .servicesElement {
+        min-height: 80vh;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 720px) {
+    .priceListWrapper {
+        min-height: 250vh;
+    }
+    .servicesElement {
+        min-height: 70vh;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 667px) {
+    .priceListWrapper {
+        min-height: 350vh;
+    }
+    .servicesElement {
+        min-height: 100vh;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 568px) {
+    .priceListWrapper {
+        min-height: 400vh;
+    }
+    .servicesElement {
+        min-height: 120vh;
+    }
+}
+
+/*                       ORIENTATION PORTRAIT                   */
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    .services {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priceListWrapper {
+        min-height: 140vh;
+    }
+    .servicesElement {
+        min-height: 40vh;
+        min-width: 80%;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priceListWrapper {
+        min-height: 200vh;
+    }
+    .servicesElement {
+        min-height: 60vh;
+        min-width: 80%;
+    }
+
+    .priceListHeader {
+        font-size: 50px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 540px) {
+    .services {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priceListWrapper {
+        min-height: 290vh;
+    }
+    .servicesElement {
+        min-height: 90vh;
+        min-width: 80%;
+    }
+
+    .priceListHeader {
+        font-size: 30px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 414px) {
+    .services {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priceListWrapper {
+        min-height: 290vh;
+    }
+    .servicesElement {
+        min-height: 90vh;
+        min-width: 80%;
+    }
+
+    .priceListHeader {
+        font-size: 25px;
+        padding: 10px 20px;
+        margin: 20px auto;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 375px) {
+    .services {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priceListWrapper {
+        min-height: 320vh;
+    }
+    .servicesElement {
+        min-height: 100vh;
+        min-width: 80%;
+    }
+
+    .priceListHeader {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 20px auto;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 320px) {
+    .services {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priceListWrapper {
+        min-height: 400vh;
+    }
+    .servicesElement {
+        min-height: 130vh;
+        min-width: 80%;
+    }
+
+    .priceListHeader {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 20px auto;
+    }
 }

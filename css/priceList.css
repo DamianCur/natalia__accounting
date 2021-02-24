@@ -252,7 +252,7 @@
         min-height: 300vh;
     }
     .servicesElement {
-        min-height: 80vh;
+        min-height: 90vh;
     }
 }
 
@@ -366,10 +366,10 @@
         align-items: center;
     }
     .priceListWrapper {
-        min-height: 320vh;
+        min-height: 300vh;
     }
     .servicesElement {
-        min-height: 100vh;
+        min-height: 90vh;
         min-width: 80%;
     }
 

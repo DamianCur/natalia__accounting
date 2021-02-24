@@ -166,6 +166,10 @@
 }
 
 @media (orientation: landscape) and (max-width: 667px) {
+    .howItWorksWrapper {
+        min-height: 130vh;
+    }
+
     .howItWorksParagraphContainer {
         height: 70vh;
     }

@@ -358,7 +358,7 @@
         font-size: 25px;
     }
     .phone span {
-        font-size: 28px;
+        font-size: 25px;
     }
     .howItWorksParagraphContainer p {
         font-size: 15px;
@@ -370,12 +370,20 @@
 }
 
 @media (orientation: portrait) and (max-width: 360px) {
+    .howItWorksWrapper {
+        min-height: 120vh;
+    }
+
     .phone span {
-        font-size: 26px;
+        font-size: 22px;
     }
 }
 
 @media (orientation: portrait) and (max-width: 320px) {
+    .howItWorksWrapper {
+        min-height: 150vh;
+    }
+
     .howItWorksParagraphContainer h5 {
         padding: 15px;
         font-size: 25px;
@@ -391,7 +399,7 @@
         font-size: 20px;
     }
     .phone span {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .phone {

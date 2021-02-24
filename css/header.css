@@ -427,36 +427,3 @@ ul a:hover::after {
 
     
 }
-
-@media (orientation: portrait) and (max-width: 360px) {
-    .welcome {
-        top: 15%;
-    }
-    .welcome p {
-        font-size: 35px;
-        margin-bottom: 110px;
-    }
-    .welcome h2 {
-        font-size: 20px;
-        width: 100%;
-        line-height: 200%;
-        padding: 0 20px;
-    }
-    .welcome span {
-        display: inline-block;
-        font-size: 25px;
-    }
-    .button {
-        padding: 10px 20px;
-        font-size: 20px;
-        top: 70vh
-    }
-
-    ul li a {
-        font-size: 20px;
-    }
-
-    .liIcon img {
-        height: 15vh;
-    }
-}

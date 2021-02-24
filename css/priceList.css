@@ -366,10 +366,10 @@
         align-items: center;
     }
     .priceListWrapper {
-        min-height: 300vh;
+        min-height: 310vh;
     }
     .servicesElement {
-        min-height: 90vh;
+        min-height: 100vh;
         min-width: 80%;
     }
 

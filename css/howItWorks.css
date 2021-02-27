@@ -27,7 +27,7 @@
     position: absolute;
     width: 50vw;
     height: 50vh;
-    background-color: rgba(255, 255, 255, 0.616);
+    background-color: rgba(255, 255, 255, 0.822);
     top: 5%;
     left: 5%;
     border-radius: 10px;
@@ -89,8 +89,12 @@
 /*                        LANDSCAPE                         */
 
 @media (orientation: landscape) and (max-width: 1400px) {
+    .howItWorksWrapper{
+        height: 150vh;
+    }
+
     .howItWorksParagraphContainer {
-        min-height: 90%;
+        min-height: 110vh;
     }
     
     .fastContact p:nth-child(1) {
